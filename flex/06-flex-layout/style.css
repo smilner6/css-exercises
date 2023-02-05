@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 15px;
 }
 
 .content {
@@ -24,20 +25,23 @@ body {
 
 ul {
   display: flex;
-  list-style-type: none;
-  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
-
-
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 15px;
+  background: grey;
 }
 
 img {
@@ -49,6 +53,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
